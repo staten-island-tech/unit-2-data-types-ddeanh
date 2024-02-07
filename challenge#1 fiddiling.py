@@ -1,37 +1,44 @@
 x = "Bill"
 y = "Tip"
 z= "Total Amount Paid"
+total = 0
+tip = 0
 
-x = 3 
-y = 0.15*x
-z= x + y
 
-def TotalAmount():
-    print(z)
+x = float(input("How much was your meal?"))
 
-TotalAmount()\
+
+
 
 service =  input("How was our service?")
 
+
+
+
 if service == ("Bad"):
     print( "0% Tip" )
-    z = x
+    tip = x
 elif service == ("Mid"):
     print("10% Tip")
-    z = x*1.10
+    tip = x * 0.1
 elif service == ("Good"):
     print ("20% Tip")
-    z = x*1.2
+    tip = x*0.2
 
 elif service == ("Great"):
     print ("27.5% Tip")
-    z= x*1.275
+    tip= x*.275
 
 elif service == ("Amazing"):
     print ("27.5% Tip")
-    z= x*1.275
+    tip = x*.275
 
-Bill = input("How much was your meal?")
+print (total) 
 
-x*y
-    
+
+
+total = x + tip 
+
+
+
+
