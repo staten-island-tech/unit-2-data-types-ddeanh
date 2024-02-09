@@ -9,5 +9,7 @@ for i in range(1,int(num/2)):
         if number /i not in factors:
             factors.append(number/i)
 
+
+
 for i in factors:
     print(i)

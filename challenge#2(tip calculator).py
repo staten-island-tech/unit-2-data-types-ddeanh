@@ -33,11 +33,10 @@ elif service == ("Amazing"):
     print ("27.5% Tip")
     tip = x*.275
 
+total = x + tip
+
+
 print (total) 
-
-
-
-total = x + tip 
 
 
 

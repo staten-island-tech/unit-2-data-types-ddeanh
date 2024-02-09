@@ -31,6 +31,7 @@ You may noticed the following
 2.  if we print the variable "values" we can see the entire list
 3.  If we use a for loop we can easily iterate through the list and access the values.
 
+
 ## What if we just want one single, specific value?
 We can access individual elements in the list by using brackets ([]) and the elements position. Note that in CS we tend to begin counting at 0. 
 ```python
