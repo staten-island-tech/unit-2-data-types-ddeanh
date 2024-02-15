@@ -1,5 +1,5 @@
 import  random
-number = random.randint(1,10)
+number = random.randint(0,200)
 history = []
 
 while True: 
@@ -10,8 +10,8 @@ while True:
         break
     else:
         if guess != number:
-            print ("Incorect")
+            print ("Incorrect")
         if guess > number:
             print ("Your guess is higher than the actual number")   
-else: 
-        print ("Your guess is lower than the actual number")
+else:
+            print ("Your guess is lower than the actual number")
