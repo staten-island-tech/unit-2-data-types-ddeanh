@@ -1,4 +1,4 @@
-number = float(input("What is your number?"))
+number = float(input("What is your first number?"))
 number2 = float(input("What is your second number?"))
 num= number 
 num2 = number2
