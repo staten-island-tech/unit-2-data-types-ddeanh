@@ -1,5 +1,5 @@
 import  random
-number = random.randint(0,10)
+number = random.randint(0,200)
 history = []
 guess_history = history
 
