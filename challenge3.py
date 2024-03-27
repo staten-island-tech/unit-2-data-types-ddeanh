@@ -9,7 +9,7 @@ for i in range(1,int(num/2)):
         if number /i not in factors:
             factors.append(number/i)
 
-else: print("Your number does not have multiple factors")
+
 
 for i in factors:
     print(i)
