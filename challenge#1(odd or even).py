@@ -1,4 +1,4 @@
-oddeven = 0
+
 
 oddeven = float(input("What is your Number"))
 if oddeven%2 == 0: 
